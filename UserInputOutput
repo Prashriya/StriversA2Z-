@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Solution {
+    
+    public static void main(String[] args) {
+        // Write your code here
+        Scanner reader = new Scanner(System.in);
+        char character = reader.next().charAt(0);
+        
+        if( Character.isUpperCase(character) == true )
+        {
+            System.out.println("1");
+        }
+        else if( Character.isLowerCase(character) == true )
+        {
+            System.out.println("0");
+        }
+        else 
+        {
+            System.out.println("-1");
+        }
+
+    }
+}
